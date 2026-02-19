@@ -223,41 +223,10 @@ Course format → เลือก "Custom sections"
 **ขั้นตอน:**
 
 1. **เข้าสู่ Groups**
-   - เมนูซ้าย → **"Participants"**
-   - คลิก ⚙️ → เลือก **"Groups"**
+   - เลือกเมนู **"Participants"**
+   - เปลี่ยนเมนูด้านซ้ายเดิมจาก **"Enrolled users"** เป็น  **"Groups"**
 
-2. **สร้างกลุ่มอัตโนมัติ** (แนะนำ)
-   
-   คลิก **"Auto-create groups"**
-   
-   ```
-   Naming scheme: กลุ่ม @
-      (@ จะเป็นตัวเลข 1, 2, 3 อัตโนมัติ)
-   
-   Create as:
-   ● Number of groups: 5
-      (สร้าง 5 กลุ่ม แบ่งนักเรียนให้เท่ากันทุกกลุ่ม)
-   
-   Members:
-   ● Enrolled users: All
-   
-   Allocate members:
-   ☑ Ignore users in groups: No
-   ☑ Members per group: [เว้นว่าง - ให้แบ่งอัตโนมัติ]
-   ```
-   
-   คลิก **"Preview"** → ตรวจสอบ → **"Submit"**
-
-3. **ผลลัพธ์:**
-   ```
-   กลุ่ม 1 (8 คน)
-   กลุ่ม 2 (8 คน)
-   กลุ่ม 3 (8 คน)
-   กลุ่ม 4 (8 คน)
-   กลุ่ม 5 (8 คน)
-   ```
-
-**วิธีสร้างกลุ่มแบบ Manual:**
+2. **สร้างกลุ่มแบบ Manual:**
    
    คลิก **"Create group"**
    ```
@@ -270,12 +239,12 @@ Course format → เลือก "Custom sections"
 
 #### **3.2 การตั้งค่า Group mode**
 
-1. กลับไปที่ **⚙️ Settings → Edit settings**
+1. เลือกเมนู **Settings**
 
-2. หา **"Groups"**
+2. เมนูย่อย **"Groups"** กำหนดตัวเลือก
    ```
    Group mode: No groups
-      (ตั้งเป็น No groups ก่อน ปรับในแต่ละ Activity ทีหลัง)
+      (ตั้งเป็น No groups ไว้ก่อน แต่สามารถปรับในแต่ละ Activity ให้เป็นแบบ Group ได้ภายหลัง)
    
    Force group mode: No
       (ให้แต่ละ Activity เลือกได้เอง)
