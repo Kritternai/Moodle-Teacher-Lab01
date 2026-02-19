@@ -673,30 +673,15 @@ Add restriction...
 
 9. **⭐ Completion condition:**
 ```
-Completion tracking: Show activity as complete when conditions are met
-
-☑ Require view: Yes
-☑ Require submit: Students must submit this activity
-
-Expect completed on: [Due date]
+☑ Add requirements: ☑ Make a submission
+☑ Set reminder in Timeline : ☑ Enable (ระบุวันแจ้งเตือน)
 ```
 
 10. **บันทึก** → **"Save and display"**
 
-**✅ ตรวจสอบความสำเร็จ:**
-- [ ] Accepted file types = .pdf เท่านั้น
-- [ ] Max files = 1, Max size = 10 MB
-- [ ] Due date และ Cut-off ห่างกัน 2 วัน
-- [ ] Remind me to grade = Due + 5 วัน
-- [ ] Grade category = การบ้าน, Max = 10, Pass = 7
-- [ ] Feedback types: Comments + Annotate PDF
-- [ ] Restrict access ล็อกจนกว่า Lesson ผ่าน
-- [ ] Activity completion: Require submit
-- [ ] ทดสอบ Switch role → เห็นว่าล็อกอยู่
-
 ---
 
-#### **6.5 Assignment (งานกลุ่ม) - 20 นาที**
+#### **5.6 Assignment (งานกลุ่ม)**
 
 **📝 โจทย์:** สร้าง Assignment สำหรับส่งงานกลุ่ม
 
@@ -716,9 +701,10 @@ Expect completed on: [Due date]
 
 2. **ตั้งค่าพื้นฐาน:**
 ```
+Description: (ระบุ)
+   ☑ Display description on course page: Yes
+Activity instructions:
 Assignment name: 🎯 โปรเจกต์กลุ่ม: [หัวข้อ]
-   ตัวอย่าง: "โปรเจกต์กลุ่ม: การนำเสนอ [หัวข้อ]"
-
 Description:
 "📊 ทำโปรเจกต์เป็นกลุ่ม
 
@@ -731,7 +717,7 @@ Description:
 
 📅 กำหนดส่ง: [วันที่] 23:59 น."
 
-☑ Display description on course page: Yes
+
 ```
 
 3. **Availability:**
